@@ -46,7 +46,7 @@ if (process.env.NODE_ENV === "production") {
   }
 
 
-const CONNECTION_URL = 'mongodb+srv://layiwola008:1234love@cluster0.wyvcw.mongodb.net/blog?retryWrites=true&w=majority';
+const CONNECTION_URL = 'You can insert your MongoDB connection string here';
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(process.env.CONNECTION_URI || CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
