@@ -1,0 +1,35 @@
+.posts {
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+
+
+@media only screen and (max-width: 1110px) {
+    .posts {
+      width: 100%;
+      flex: 7;
+    }
+  }
+
+@media only screen and (max-width: 898px) {
+    .posts {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: -20px;
+    }
+  }
+
+@media only screen and (max-width: 466px) {    
+    .posts {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: -20px;
+    }
+  }

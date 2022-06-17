@@ -1,0 +1,25 @@
+.single {
+    display: flex;
+}
+
+
+
+@media only screen and (max-width: 898px) {
+    .single {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 466px) {
+      .single {
+        display: flex;
+        flex-direction: column;
+      }
+      html, body {
+          overflow-x: hidden;
+        }
+        body {
+          position: relative;
+        }
+    }
